@@ -3,12 +3,12 @@ function rePlay(){
 //Number1
 var randomNumber1 = Math.random();
 randomNumber1 = Math.ceil(randomNumber1 * 6);
-var randomSource1 = "./images/dice"+randomNumber1+".png";
+var randomSource1 = "dice"+randomNumber1+".png";
 document.querySelector(".img1").setAttribute("src", randomSource1);
 //number2
 var randomNumber2 = Math.random();
 randomNumber2 = Math.ceil(randomNumber2 * 6);
-var randomSource2 = "./images/dice"+randomNumber2+".png";
+var randomSource2 = "dice"+randomNumber2+".png";
 document.querySelector(".img2").setAttribute("src", randomSource2);
 //Refresh me change
 if (randomNumber1 > randomNumber2 ){
